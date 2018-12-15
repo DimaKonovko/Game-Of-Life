@@ -45,7 +45,7 @@ class Universe
   end
 
   # Check the number of alive cells around
-  # That's an array is used to get neighbors addres
+  # That's an array is used to get neighbors address
   #     [-1, -1]  [-1, 0 ]  [-1, +1]
   #     [ 0, -1]  [ CELL ]  [ 0, +1]
   #     [+1, -1]  [+1, 0 ]  [+1, +1]
@@ -91,7 +91,7 @@ class Universe
     init_planet(new_planet)
   end
 
-  # Initialize Universe
+  # Initializing the Universe
   # fills an array with random values in [0..1]
   def init_planet(planet)
     planet.each_index do |i|
