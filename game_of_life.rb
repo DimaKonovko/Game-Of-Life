@@ -2,7 +2,7 @@
 
 # Game of "Life" or how to simulate the "evolution"
 
-# Description:s
+# Description:
 #  - Every cell has two states: ALIVE or DEAD
 #  - Any live cell with fewer than two live neighbors dies, as if by
 #    underpopulation.
